@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/329647a798cccb101aecf.jpg">
+  <img src="https://telegra.ph/file/834fd0b51d2288537f43f.jpg">
 </p>
 
 # Krishna Rockstar Bot
