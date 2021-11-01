@@ -40,7 +40,7 @@ through the /stats command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-python3 -m Amelia
+python3 -m krishna
 
 You can use nssm to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
@@ -56,12 +56,6 @@ For starters click on this button
 
 
 ## Our Telegram Channel and Group
-
-* [Warbotz](https://telegram.dog/thewarbotz)
-* [WarBotzChat](https://telegram.dog/WarBotzsupport)
-
-## Credits, and Thanks to 
-*   [Abhishek](https://telegram.dog/xAbhisheksingh)
 
 
 
