@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from AmeliaRobot import (
+from Krishnarockstar import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from AmeliaRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from AmeliaRobot.modules import ALL_MODULES
-from AmeliaRobot.modules.helper_funcs.chat_status import is_user_admin
-from AmeliaRobot.modules.helper_funcs.misc import paginate_modules
+from Krishnarockstar.modules import ALL_MODULES
+from Krishnarockstar.modules.helper_funcs.chat_status import is_user_admin
+from Krishnarockstar.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -98,9 +98,7 @@ buttons = [
 HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` Nancy [🙋‍♀️](https://telegra.ph/file/39c6808c27bf2a92854b3.png)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
-
-amelia_IMG = "https://telegra.ph/file/329647a798cccb101aecf.jpg"
-
+Krishnarockstar="https://telegra.ph/file/834fd0b51d2288537f43f.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @dark_cobra_xd\
  Supporting isnt always financial! \
@@ -117,7 +115,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AmeliaRobot.modules." + module_name)
+    imported_module = importlib.import_module("Krishnarockstar.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
