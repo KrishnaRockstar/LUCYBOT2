@@ -1,4 +1,4 @@
-from AmeliaRobot.mongo import client as db_x
+from Krishnarockstar.mongo import client as db_x
 
 lydia = db_x["CHATBOT"]
 talkmode = db_x["TALKMODE"]
