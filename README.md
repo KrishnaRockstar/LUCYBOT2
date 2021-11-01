@@ -9,7 +9,7 @@
 <a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ### Bot And Channel 
-* Bot Link:  <a href="http://t.me/krishnarockstar_bot" alt=" Krishna "> <img src="http://t.me/krishnarockstar_bot" /> </a>
+* Bot Link:  <a href="http://t.me/krishnarockstar_bot" alt=" Krishna "> <img src="https://telegra.ph/file/834fd0b51d2288537f43f.jpg" /> </a>
 * Support Channel: <a  href="https://t.me/warbotz" alt="Help Centre Logs"> <img  src="https://t.me/krishnarockstar_2'/> </a>
 
 ### Creating your own modules.
